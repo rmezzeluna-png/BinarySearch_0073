@@ -32,3 +32,14 @@ void input()
     }
 }
 
+void bublesortarray()
+{
+    int pass = 1;
+    do
+    {
+    {
+        for(int j = 0; j <= nPanjang - 1 - pass; j++)
+        
+    }
+    
+}
