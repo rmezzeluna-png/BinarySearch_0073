@@ -90,7 +90,7 @@ void binarySearch()
 
             if (element[mid] == x)
             {
-                cout << "\n[✓] Elemen " << x << " ditemukan pada indeks " << mid << "\n";
+                cout << "\n[☭] Elemen " << x << " ditemukan pada indeks " << mid << "\n";
                 return;
             }
             if (x < element[mid])
@@ -112,7 +112,7 @@ void binarySearch()
         cout << "\nIngin mencari lagi? (y/n): ";
         cin >> ulang;
 
-    } while (ulang == 'y' || ulang == 'y');
+    } while (ulang == 'y' || ulang == 'Y');
 }
 
 int main()
