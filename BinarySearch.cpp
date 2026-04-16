@@ -28,6 +28,7 @@ void input()
     for (int i = 0; i < nPanjang; i++)
     {
         cout << "data ke-" << (i + 1) << " = ";
-        cin >> element [1];
+        cin >> element [i];
     }
 }
+
