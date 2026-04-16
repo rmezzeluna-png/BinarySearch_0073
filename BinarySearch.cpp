@@ -37,8 +37,7 @@ void bublesortarray()
     int pass = 1;
     do
     {
-    {
-        for(int j = 0; j <= nPanjang - 1 - pass; j++)
+        for (int j = 0; j <= nPanjang - 1 - pass; j++)
         {
             if (element [j] > element [j + 1])
             {
@@ -49,5 +48,17 @@ void bublesortarray()
         }
         pass++;
     } while (pass <= nPanjang - 1);
-    
+
+}
+
+void display()
+{
+    cout << "\n======================================\n";
+    cout << " element array setelahh diurutkan (asc)\n";
+    cout << "\n======================================\n";
+
+    for (int j = 0; j < nPanjang; j++)
+    {
+        
+    }
 }
